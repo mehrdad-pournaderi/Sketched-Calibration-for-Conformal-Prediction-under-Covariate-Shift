@@ -1,0 +1,7 @@
+=== E4: shift along signal a=beta/|beta|, mu=1.5, sigma=1, R=150
+  k= 2 |a_par|^2=0.055 chi2_Z= 0.13 leak=0.510 1-a-leak=0.390 | sk: cov 0.608 sd 0.031 len 10.19 Pinf 0.000 | full: cov 0.905 sd 0.031 len  3.28 Pinf 0.028
+  k= 5 |a_par|^2=0.092 chi2_Z= 0.23 leak=0.500 1-a-leak=0.400 | sk: cov 0.620 sd 0.031 len 10.00 Pinf 0.000 | full: cov 0.903 sd 0.031 len  3.27 Pinf 0.028
+  k=10 |a_par|^2=0.121 chi2_Z= 0.31 leak=0.492 1-a-leak=0.408 | sk: cov 0.629 sd 0.030 len  9.90 Pinf 0.000 | full: cov 0.910 sd 0.029 len  3.36 Pinf 0.028
+  k=20 |a_par|^2=0.483 chi2_Z= 1.96 leak=0.375 1-a-leak=0.525 | sk: cov 0.751 sd 0.037 len  7.88 Pinf 0.000 | full: cov 0.904 sd 0.031 len  3.28 Pinf 0.028
+  k=30 |a_par|^2=0.780 chi2_Z= 4.78 leak=0.226 1-a-leak=0.674 | sk: cov 0.849 sd 0.036 len  5.68 Pinf 0.009 | full: cov 0.909 sd 0.033 len  3.36 Pinf 0.028
+  k=40 |a_par|^2=1.000 chi2_Z= 8.49 leak=0.000 1-a-leak=0.900 | sk: cov 0.908 sd 0.029 len  3.30 Pinf 0.028 | full: cov 0.908 sd 0.029 len  3.30 Pinf 0.028

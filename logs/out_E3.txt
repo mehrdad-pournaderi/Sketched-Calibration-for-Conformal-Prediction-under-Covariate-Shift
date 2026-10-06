@@ -1,0 +1,8 @@
+=== E3: random sketch k=8, random shift, mu=1.5, sigma=1, R=300
+  |a_par|^2=0.211 |beta_perp|^2=7.986 chi2_X=8.49 chi2_Z=0.609 leakage=0.0354 1-a-leak=0.8646
+  oracle lengths: full 3.29, sketched 9.86
+  exact weighted (Pi=I)              cov 0.909  sd 0.030  P(cov<.85) 0.013  len   3.34  P(inf) 0.028 
+  sketched weighted k=8              cov 0.901  sd 0.018  P(cov<.85) 0.003  len   9.97  P(inf) 0.000 
+  shift-aware sketch k=9             cov 0.904  sd 0.033  P(cov<.85) 0.047  len   9.73  P(inf) 0.028 
+  sketched unweighted                cov 0.899  sd 0.014  P(cov<.85) 0.000  len   9.93  P(inf) 0.000 
+  full-d unweighted                  cov 0.902  sd 0.012  P(cov<.85) 0.000  len   3.35  P(inf) 0.000 

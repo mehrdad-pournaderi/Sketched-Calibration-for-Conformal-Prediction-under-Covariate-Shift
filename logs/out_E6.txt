@@ -1,0 +1,30 @@
+=== E6a15: heteroscedastic, mu=1.5, R=200
+  chi2_X=8.5  chi2_Z: Pi_1 2.01  resid-dir 1.73  random8 0.83  sin(angle) OLS 0.035 resid-dir 0.329  full-score random-sketch leakage (homosc. formula) 0.0078
+  full weighting                           cov 0.907  sd 0.039  P(cov<.85) 0.085  len   3.62  P(inf) 0.027 
+  unweighted                               cov 0.756  sd 0.021  P(cov<.85) 1.000  len   2.40  P(inf) 0.000 
+  sketched score, Pi_1                     cov 0.901  sd 0.032  P(cov<.85) 0.070  len   3.75  P(inf) 0.001 
+  sketched score, random k=8               cov 0.787  sd 0.026  P(cov<.85) 0.995  len   8.73  P(inf) 0.000 
+  full score, weights Pi_1                 cov 0.901  sd 0.032  P(cov<.85) 0.070  len   3.75  P(inf) 0.001 
+  full score, weights Pi_8                 cov 0.901  sd 0.034  P(cov<.85) 0.075  len   3.69  P(inf) 0.002 
+  full score, weights resid-dir            cov 0.890  sd 0.032  P(cov<.85) 0.140  len   3.58  P(inf) 0.000 
+  full score, weights random k=8           cov 0.804  sd 0.031  P(cov<.85) 0.935  len   2.72  P(inf) 0.000 
+=== E6a25: heteroscedastic, mu=2.5, R=200
+  chi2_X=517.0  chi2_Z: Pi_1 20.39  resid-dir 15.97  random8 4.33  sin(angle) OLS 0.035 resid-dir 0.329  full-score random-sketch leakage (homosc. formula) 0.0130
+  full weighting                           cov 0.931  sd 0.052  P(cov<.85) 0.080  len   4.64  P(inf) 0.376 
+  unweighted                               cov 0.641  sd 0.023  P(cov<.85) 1.000  len   2.40  P(inf) 0.000 
+  sketched score, Pi_1                     cov 0.917  sd 0.044  P(cov<.85) 0.075  len   4.48  P(inf) 0.081 
+  sketched score, random k=8               cov 0.631  sd 0.050  P(cov<.85) 1.000  len   8.75  P(inf) 0.007 
+  full score, weights Pi_1                 cov 0.917  sd 0.044  P(cov<.85) 0.075  len   4.48  P(inf) 0.081 
+  full score, weights Pi_8                 cov 0.919  sd 0.049  P(cov<.85) 0.080  len   4.41  P(inf) 0.129 
+  full score, weights resid-dir            cov 0.899  sd 0.049  P(cov<.85) 0.155  len   4.27  P(inf) 0.061 
+  full score, weights random k=8           cov 0.744  sd 0.059  P(cov<.85) 0.960  len   2.97  P(inf) 0.007 
+=== E6b15: homoscedastic, mu=1.5, R=200
+  chi2_X=8.5  chi2_Z: Pi_1 0.00  resid-dir 0.06  random8 0.61  sin(angle) OLS 0.046 resid-dir 0.985  full-score random-sketch leakage (homosc. formula) 0.0092
+  full weighting                           cov 0.905  sd 0.031  P(cov<.85) 0.035  len   3.28  P(inf) 0.027 
+  unweighted                               cov 0.899  sd 0.014  P(cov<.85) 0.000  len   3.32  P(inf) 0.000 
+  sketched score, Pi_1                     cov 0.900  sd 0.014  P(cov<.85) 0.000  len   3.33  P(inf) 0.000 
+  sketched score, random k=8               cov 0.900  sd 0.016  P(cov<.85) 0.000  len   9.93  P(inf) 0.000 
+  full score, weights Pi_1                 cov 0.900  sd 0.014  P(cov<.85) 0.000  len   3.33  P(inf) 0.000 
+  full score, weights Pi_8                 cov 0.899  sd 0.016  P(cov<.85) 0.010  len   3.33  P(inf) 0.000 
+  full score, weights resid-dir            cov 0.900  sd 0.014  P(cov<.85) 0.000  len   3.33  P(inf) 0.000 
+  full score, weights random k=8           cov 0.899  sd 0.017  P(cov<.85) 0.000  len   3.31  P(inf) 0.000 

@@ -1,0 +1,22 @@
+=== E5: homoscedastic sigma=1, random a, R=200
+ mu=1.0: chi2_X=1.7  chi2_Z(k=1)=0.02  chi2_Z(k=8)=0.22  homosc-leak k=1 0.0066 k=8 0.0064
+  exact weighted                     cov 0.903  sd 0.021  P(cov<.85) 0.005  len   3.34  P(inf) 0.000 
+  clipped M=20                       cov 0.903  sd 0.021  P(cov<.85) 0.005  len   3.34  P(inf) 0.000 
+  sketched k=1 weighted              cov 0.902  sd 0.014  P(cov<.85) 0.000  len   3.35  P(inf) 0.000 
+  sketched k=8 weighted              cov 0.902  sd 0.015  P(cov<.85) 0.005  len   3.35  P(inf) 0.000 
+  sketched k=8 unweighted            cov 0.901  sd 0.014  P(cov<.85) 0.000  len   3.34  P(inf) 0.000 
+  full-d unweighted                  cov 0.901  sd 0.014  P(cov<.85) 0.000  len   3.34  P(inf) 0.000 
+ mu=1.5: chi2_X=8.5  chi2_Z(k=1)=0.05  chi2_Z(k=8)=0.59  homosc-leak k=1 0.0099 k=8 0.0095
+  exact weighted                     cov 0.907  sd 0.031  P(cov<.85) 0.035  len   3.31  P(inf) 0.028 
+  clipped M=20                       cov 0.906  sd 0.027  P(cov<.85) 0.020  len   3.34  P(inf) 0.000 
+  sketched k=1 weighted              cov 0.902  sd 0.013  P(cov<.85) 0.000  len   3.35  P(inf) 0.000 
+  sketched k=8 weighted              cov 0.902  sd 0.016  P(cov<.85) 0.005  len   3.35  P(inf) 0.000 
+  sketched k=8 unweighted            cov 0.901  sd 0.014  P(cov<.85) 0.005  len   3.34  P(inf) 0.000 
+  full-d unweighted                  cov 0.901  sd 0.014  P(cov<.85) 0.005  len   3.34  P(inf) 0.000 
+ mu=2.5: chi2_X=517.0  chi2_Z(k=1)=0.13  chi2_Z(k=8)=3.15  homosc-leak k=1 0.0166 k=8 0.0159
+  exact weighted                     cov 0.920  sd 0.079  P(cov<.85) 0.075  len   3.60  P(inf) 0.382 
+  clipped M=20                       cov 0.923  sd 0.036  P(cov<.85) 0.030  len   3.90  P(inf) 0.000 
+  sketched k=1 weighted              cov 0.901  sd 0.014  P(cov<.85) 0.000  len   3.35  P(inf) 0.000 
+  sketched k=8 weighted              cov 0.903  sd 0.021  P(cov<.85) 0.005  len   3.35  P(inf) 0.006 
+  sketched k=8 unweighted            cov 0.901  sd 0.014  P(cov<.85) 0.005  len   3.34  P(inf) 0.000 
+  full-d unweighted                  cov 0.901  sd 0.014  P(cov<.85) 0.005  len   3.34  P(inf) 0.000 

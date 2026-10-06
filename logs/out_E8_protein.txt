@@ -1,0 +1,22 @@
+=== E8 protein, tilt=random, gamma=3.0, m=500, R=100: pool chi2=21.09  chi2_Z resid1 0.22 resid2 2.37 random2 6.04 SIR(Y)+resid 10.62 | selection counts [25, 10, 13, 5, 11, 17, 19, 0]
+  full weighting                           cov 0.913  sd 0.035  P(cov<.85) 0.050  len  13.96  P(inf) 0.118 
+  clipped M=20                             cov 0.914  sd 0.033  P(cov<.85) 0.040  len  14.42  P(inf) 0.000 
+  unweighted                               cov 0.927  sd 0.015  P(cov<.85) 0.000  len  15.21  P(inf) 0.000 
+  resid-dir k=1                            cov 0.934  sd 0.015  P(cov<.85) 0.000  len  15.66  P(inf) 0.000 
+  resid-dir k=2 (SIR)                      cov 0.915  sd 0.026  P(cov<.85) 0.040  len  14.67  P(inf) 0.000 
+  SIR(Y) k=2 + resid-dir                   cov 0.905  sd 0.032  P(cov<.85) 0.060  len  13.41  P(inf) 0.042 
+  random k=2                               cov 0.905  sd 0.032  P(cov<.85) 0.050  len  13.86  P(inf) 0.014 
+  shift-dir (exact)                        cov 0.913  sd 0.035  P(cov<.85) 0.050  len  13.96  P(inf) 0.118 
+  selected (n_t=100)                       cov 0.907  sd 0.021  P(cov<.85) 0.010  len  13.96  P(inf) 0.040 
+  best candidate (hindsight)               cov 0.905  sd 0.010  P(cov<.85) 0.000  len  13.72  P(inf) 0.032 
+=== E8 protein, tilt=feature, gamma=2.0, m=500, R=100: pool chi2=14.10  chi2_Z resid1 0.61 resid2 5.65 random2 8.67 SIR(Y)+resid 11.43 | selection counts [27, 12, 20, 9, 12, 10, 10, 0]
+  full weighting                           cov 0.924  sd 0.040  P(cov<.85) 0.040  len  17.12  P(inf) 0.064 
+  clipped M=20                             cov 0.901  sd 0.038  P(cov<.85) 0.110  len  17.23  P(inf) 0.000 
+  unweighted                               cov 0.865  sd 0.017  P(cov<.85) 0.200  len  15.21  P(inf) 0.000 
+  resid-dir k=1                            cov 0.874  sd 0.021  P(cov<.85) 0.110  len  15.74  P(inf) 0.000 
+  resid-dir k=2 (SIR)                      cov 0.893  sd 0.037  P(cov<.85) 0.100  len  16.52  P(inf) 0.000 
+  SIR(Y) k=2 + resid-dir                   cov 0.910  sd 0.039  P(cov<.85) 0.070  len  16.95  P(inf) 0.016 
+  random k=2                               cov 0.895  sd 0.040  P(cov<.85) 0.120  len  16.35  P(inf) 0.005 
+  shift-dir (exact)                        cov 0.924  sd 0.040  P(cov<.85) 0.040  len  17.12  P(inf) 0.064 
+  selected (n_t=100)                       cov 0.894  sd 0.024  P(cov<.85) 0.030  len  16.06  P(inf) 0.017 
+  best candidate (hindsight)               cov 0.894  sd 0.013  P(cov<.85) 0.010  len  16.25  P(inf) 0.013 

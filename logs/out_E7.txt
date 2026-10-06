@@ -1,0 +1,98 @@
+=== E7 mu=1.5, n=1000, m=500, R=100: chi2_X=8.5  chi2_Z resid1 0.29 shift 7.92 resid+shift 7.93 random8 0.62 SIR(Y)+resid 1.41 oracle b3 1.25 oracle 3 2.95 | sin(resid-dir,b3) 0.813  sin(shift-dir,a) 0.165 | selection counts [38, 16, 12, 9, 4, 9, 8, 1, 3]
+  full weighting                           cov 0.904  sd 0.036  P(cov<.85) 0.050  len   4.73  P(inf) 0.028 
+  clipped M=20                             cov 0.896  sd 0.032  P(cov<.85) 0.060  len   4.77  P(inf) 0.000 
+  unweighted                               cov 0.836  sd 0.016  P(cov<.85) 0.810  len   4.10  P(inf) 0.000 
+  resid-dir k=1                            cov 0.855  sd 0.019  P(cov<.85) 0.450  len   4.32  P(inf) 0.000 
+  resid-dir k=2 (SIR)                      cov 0.853  sd 0.021  P(cov<.85) 0.510  len   4.27  P(inf) 0.000 
+  SIR(Y) k=2 + resid-dir                   cov 0.862  sd 0.028  P(cov<.85) 0.330  len   4.38  P(inf) 0.000 
+  shift-dir k=1                            cov 0.902  sd 0.035  P(cov<.85) 0.040  len   4.66  P(inf) 0.025 
+  resid+shift k=2                          cov 0.902  sd 0.035  P(cov<.85) 0.050  len   4.67  P(inf) 0.025 
+  random k=8                               cov 0.849  sd 0.021  P(cov<.85) 0.550  len   4.24  P(inf) 0.000 
+  oracle b3                                cov 0.895  sd 0.022  P(cov<.85) 0.020  len   4.90  P(inf) 0.000 
+  oracle [b1,b2,b3]                        cov 0.902  sd 0.033  P(cov<.85) 0.040  len   4.91  P(inf) 0.002 
+  selected (n_t=100)                       cov 0.883  sd 0.027  P(cov<.85) 0.130  len   4.52  P(inf) 0.013 
+  best candidate (hindsight)               cov 0.892  sd 0.017  P(cov<.85) 0.020  len   4.69  P(inf) 0.013 
+=== E7 mu=2.5, n=1000, m=500, R=100: chi2_X=517.0  chi2_Z resid1 1.17 shift 455.72 resid+shift 457.05 random8 3.27 SIR(Y)+resid 11.60 oracle b3 8.49 oracle 3 44.26 | sin(resid-dir,b3) 0.813  sin(shift-dir,a) 0.142 | selection counts [23, 37, 0, 7, 3, 16, 10, 1, 3]
+  full weighting                           cov 0.921  sd 0.091  P(cov<.85) 0.080  len   5.88  P(inf) 0.377 
+  clipped M=20                             cov 0.896  sd 0.051  P(cov<.85) 0.170  len   6.40  P(inf) 0.005 
+  unweighted                               cov 0.766  sd 0.019  P(cov<.85) 1.000  len   4.10  P(inf) 0.000 
+  resid-dir k=1                            cov 0.805  sd 0.036  P(cov<.85) 0.890  len   4.43  P(inf) 0.001 
+  resid-dir k=2 (SIR)                      cov 0.801  sd 0.040  P(cov<.85) 0.900  len   4.37  P(inf) 0.002 
+  SIR(Y) k=2 + resid-dir                   cov 0.851  sd 0.062  P(cov<.85) 0.540  len   4.65  P(inf) 0.040 
+  shift-dir k=1                            cov 0.919  sd 0.086  P(cov<.85) 0.080  len   5.81  P(inf) 0.365 
+  resid+shift k=2                          cov 0.919  sd 0.090  P(cov<.85) 0.080  len   5.81  P(inf) 0.366 
+  random k=8                               cov 0.799  sd 0.040  P(cov<.85) 0.930  len   4.33  P(inf) 0.006 
+  oracle b3                                cov 0.894  sd 0.038  P(cov<.85) 0.100  len   5.52  P(inf) 0.028 
+  oracle [b1,b2,b3]                        cov 0.922  sd 0.046  P(cov<.85) 0.060  len   5.58  P(inf) 0.141 
+  selected (n_t=100)                       cov 0.892  sd 0.039  P(cov<.85) 0.150  len   5.47  P(inf) 0.136 
+  best candidate (hindsight)               cov 0.906  sd 0.026  P(cov<.85) 0.010  len   5.70  P(inf) 0.150 
+=== E7 mu=1.5, n=4000, m=500, R=100: chi2_X=8.5  chi2_Z resid1 0.70 shift 7.91 resid+shift 7.93 random8 0.60 SIR(Y)+resid 2.26 oracle b3 1.25 oracle 3 2.95 | sin(resid-dir,b3) 0.502  sin(shift-dir,a) 0.167 | selection counts [28, 16, 3, 21, 8, 16, 3, 0, 5]
+  full weighting                           cov 0.915  sd 0.037  P(cov<.85) 0.040  len   4.78  P(inf) 0.028 
+  clipped M=20                             cov 0.904  sd 0.034  P(cov<.85) 0.070  len   4.71  P(inf) 0.000 
+  unweighted                               cov 0.820  sd 0.015  P(cov<.85) 0.990  len   3.71  P(inf) 0.000 
+  resid-dir k=1                            cov 0.870  sd 0.022  P(cov<.85) 0.200  len   4.30  P(inf) 0.000 
+  resid-dir k=2 (SIR)                      cov 0.871  sd 0.022  P(cov<.85) 0.170  len   4.29  P(inf) 0.000 
+  SIR(Y) k=2 + resid-dir                   cov 0.890  sd 0.029  P(cov<.85) 0.080  len   4.51  P(inf) 0.001 
+  shift-dir k=1                            cov 0.911  sd 0.037  P(cov<.85) 0.060  len   4.65  P(inf) 0.025 
+  resid+shift k=2                          cov 0.911  sd 0.037  P(cov<.85) 0.060  len   4.68  P(inf) 0.025 
+  random k=8                               cov 0.836  sd 0.023  P(cov<.85) 0.780  len   3.85  P(inf) 0.000 
+  oracle b3                                cov 0.889  sd 0.022  P(cov<.85) 0.030  len   4.53  P(inf) 0.000 
+  oracle [b1,b2,b3]                        cov 0.907  sd 0.032  P(cov<.85) 0.040  len   4.74  P(inf) 0.002 
+  selected (n_t=100)                       cov 0.890  sd 0.026  P(cov<.85) 0.060  len   4.44  P(inf) 0.009 
+  best candidate (hindsight)               cov 0.895  sd 0.014  P(cov<.85) 0.010  len   4.54  P(inf) 0.007 
+=== E7 mu=2.5, n=4000, m=500, R=100: chi2_X=517.0  chi2_Z resid1 3.72 shift 454.22 resid+shift 456.00 random8 3.00 SIR(Y)+resid 26.70 oracle b3 8.49 oracle 3 44.26 | sin(resid-dir,b3) 0.502  sin(shift-dir,a) 0.143 | selection counts [12, 28, 0, 15, 7, 23, 12, 2, 1]
+  full weighting                           cov 0.940  sd 0.050  P(cov<.85) 0.060  len   5.81  P(inf) 0.384 
+  clipped M=20                             cov 0.897  sd 0.056  P(cov<.85) 0.190  len   6.58  P(inf) 0.000 
+  unweighted                               cov 0.733  sd 0.018  P(cov<.85) 1.000  len   3.71  P(inf) 0.000 
+  resid-dir k=1                            cov 0.836  sd 0.042  P(cov<.85) 0.620  len   4.70  P(inf) 0.006 
+  resid-dir k=2 (SIR)                      cov 0.842  sd 0.046  P(cov<.85) 0.630  len   4.73  P(inf) 0.011 
+  SIR(Y) k=2 + resid-dir                   cov 0.903  sd 0.054  P(cov<.85) 0.130  len   4.98  P(inf) 0.095 
+  shift-dir k=1                            cov 0.934  sd 0.051  P(cov<.85) 0.060  len   5.55  P(inf) 0.372 
+  resid+shift k=2                          cov 0.935  sd 0.051  P(cov<.85) 0.060  len   5.62  P(inf) 0.372 
+  random k=8                               cov 0.768  sd 0.043  P(cov<.85) 0.940  len   3.93  P(inf) 0.005 
+  oracle b3                                cov 0.880  sd 0.049  P(cov<.85) 0.330  len   5.07  P(inf) 0.028 
+  oracle [b1,b2,b3]                        cov 0.930  sd 0.042  P(cov<.85) 0.040  len   5.27  P(inf) 0.144 
+  selected (n_t=100)                       cov 0.899  sd 0.036  P(cov<.85) 0.090  len   5.14  P(inf) 0.122 
+  best candidate (hindsight)               cov 0.903  sd 0.023  P(cov<.85) 0.020  len   5.21  P(inf) 0.111 
+=== E7 mu=1.5, n=16000, m=500, R=100: chi2_X=8.5  chi2_Z resid1 0.99 shift 7.89 resid+shift 7.91 random8 0.63 SIR(Y)+resid 2.79 oracle b3 1.25 oracle 3 2.95 | sin(resid-dir,b3) 0.277  sin(shift-dir,a) 0.170 | selection counts [35, 11, 5, 22, 3, 14, 4, 1, 5]
+  full weighting                           cov 0.916  sd 0.039  P(cov<.85) 0.050  len   4.58  P(inf) 0.028 
+  clipped M=20                             cov 0.906  sd 0.039  P(cov<.85) 0.080  len   4.64  P(inf) 0.000 
+  unweighted                               cov 0.812  sd 0.019  P(cov<.85) 0.970  len   3.52  P(inf) 0.000 
+  resid-dir k=1                            cov 0.878  sd 0.028  P(cov<.85) 0.130  len   4.28  P(inf) 0.000 
+  resid-dir k=2 (SIR)                      cov 0.880  sd 0.031  P(cov<.85) 0.140  len   4.30  P(inf) 0.000 
+  SIR(Y) k=2 + resid-dir                   cov 0.903  sd 0.037  P(cov<.85) 0.050  len   4.53  P(inf) 0.002 
+  shift-dir k=1                            cov 0.914  sd 0.039  P(cov<.85) 0.070  len   4.58  P(inf) 0.025 
+  resid+shift k=2                          cov 0.915  sd 0.039  P(cov<.85) 0.070  len   4.59  P(inf) 0.025 
+  random k=8                               cov 0.831  sd 0.029  P(cov<.85) 0.780  len   3.65  P(inf) 0.000 
+  oracle b3                                cov 0.887  sd 0.027  P(cov<.85) 0.090  len   4.43  P(inf) 0.000 
+  oracle [b1,b2,b3]                        cov 0.906  sd 0.036  P(cov<.85) 0.060  len   4.56  P(inf) 0.002 
+  selected (n_t=100)                       cov 0.891  sd 0.032  P(cov<.85) 0.110  len   4.39  P(inf) 0.011 
+  best candidate (hindsight)               cov 0.894  sd 0.017  P(cov<.85) 0.030  len   4.44  P(inf) 0.006 
+=== E7 mu=2.5, n=16000, m=500, R=100: chi2_X=517.0  chi2_Z resid1 5.86 shift 452.62 resid+shift 454.50 random8 3.38 SIR(Y)+resid 39.86 oracle b3 8.49 oracle 3 44.26 | sin(resid-dir,b3) 0.277  sin(shift-dir,a) 0.145 | selection counts [22, 21, 0, 16, 13, 19, 6, 1, 2]
+  full weighting                           cov 0.942  sd 0.043  P(cov<.85) 0.040  len   5.83  P(inf) 0.384 
+  clipped M=20                             cov 0.896  sd 0.051  P(cov<.85) 0.200  len   6.28  P(inf) 0.000 
+  unweighted                               cov 0.715  sd 0.022  P(cov<.85) 1.000  len   3.52  P(inf) 0.000 
+  resid-dir k=1                            cov 0.856  sd 0.043  P(cov<.85) 0.490  len   4.77  P(inf) 0.015 
+  resid-dir k=2 (SIR)                      cov 0.863  sd 0.050  P(cov<.85) 0.440  len   4.83  P(inf) 0.035 
+  SIR(Y) k=2 + resid-dir                   cov 0.923  sd 0.048  P(cov<.85) 0.090  len   5.10  P(inf) 0.131 
+  shift-dir k=1                            cov 0.939  sd 0.047  P(cov<.85) 0.040  len   5.81  P(inf) 0.371 
+  resid+shift k=2                          cov 0.940  sd 0.047  P(cov<.85) 0.040  len   5.81  P(inf) 0.371 
+  random k=8                               cov 0.764  sd 0.059  P(cov<.85) 0.920  len   3.78  P(inf) 0.007 
+  oracle b3                                cov 0.873  sd 0.041  P(cov<.85) 0.250  len   4.98  P(inf) 0.028 
+  oracle [b1,b2,b3]                        cov 0.929  sd 0.046  P(cov<.85) 0.060  len   5.47  P(inf) 0.144 
+  selected (n_t=100)                       cov 0.898  sd 0.040  P(cov<.85) 0.140  len   5.18  P(inf) 0.142 
+  best candidate (hindsight)               cov 0.903  sd 0.022  P(cov<.85) 0.020  len   5.29  P(inf) 0.107 
+=== E7 mu=2.5, n=4000, m=200, R=100: chi2_X=517.0  chi2_Z resid1 3.51 shift 455.94 resid+shift 458.06 random8 3.18 SIR(Y)+resid 27.52 oracle b3 8.49 oracle 3 44.26 | sin(resid-dir,b3) 0.511  sin(shift-dir,a) 0.141 | selection counts [10, 8, 0, 23, 12, 28, 11, 1, 7]
+  full weighting                           cov 0.937  sd 0.064  P(cov<.85) 0.090  len    inf  P(inf) 0.526 
+  clipped M=20                             cov 0.961  sd 0.030  P(cov<.85) 0.000  len    inf  P(inf) 0.552 
+  unweighted                               cov 0.735  sd 0.031  P(cov<.85) 1.000  len   3.70  P(inf) 0.000 
+  resid-dir k=1                            cov 0.848  sd 0.057  P(cov<.85) 0.560  len   4.63  P(inf) 0.030 
+  resid-dir k=2 (SIR)                      cov 0.850  sd 0.056  P(cov<.85) 0.500  len   4.65  P(inf) 0.050 
+  SIR(Y) k=2 + resid-dir                   cov 0.920  sd 0.054  P(cov<.85) 0.090  len   5.28  P(inf) 0.221 
+  shift-dir k=1                            cov 0.938  sd 0.061  P(cov<.85) 0.090  len    inf  P(inf) 0.517 
+  resid+shift k=2                          cov 0.938  sd 0.061  P(cov<.85) 0.090  len    inf  P(inf) 0.517 
+  random k=8                               cov 0.790  sd 0.065  P(cov<.85) 0.840  len   3.95  P(inf) 0.027 
+  oracle b3                                cov 0.897  sd 0.047  P(cov<.85) 0.150  len   5.19  P(inf) 0.100 
+  oracle [b1,b2,b3]                        cov 0.941  sd 0.043  P(cov<.85) 0.040  len   5.55  P(inf) 0.285 
+  selected (n_t=100)                       cov 0.901  sd 0.034  P(cov<.85) 0.080  len   5.30  P(inf) 0.235 
+  best candidate (hindsight)               cov 0.905  sd 0.025  P(cov<.85) 0.000  len   5.41  P(inf) 0.245 

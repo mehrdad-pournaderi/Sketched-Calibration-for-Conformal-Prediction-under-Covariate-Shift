@@ -1,0 +1,44 @@
+=== E8 california, tilt=random, gamma=1.5, m=500, R=100: pool chi2=21.21  chi2_Z resid1 1.14 resid2 4.21 random2 4.42 SIR(Y)+resid 4.68 | selection counts [27, 18, 3, 21, 12, 13, 6, 0]
+  full weighting                           cov 0.922  sd 0.040  P(cov<.85) 0.050  len   0.97  P(inf) 0.069 
+  clipped M=20                             cov 0.899  sd 0.040  P(cov<.85) 0.130  len   0.97  P(inf) 0.000 
+  unweighted                               cov 0.820  sd 0.031  P(cov<.85) 0.870  len   0.75  P(inf) 0.000 
+  resid-dir k=1                            cov 0.876  sd 0.038  P(cov<.85) 0.240  len   0.92  P(inf) 0.000 
+  resid-dir k=2 (SIR)                      cov 0.878  sd 0.046  P(cov<.85) 0.250  len   0.91  P(inf) 0.002 
+  SIR(Y) k=2 + resid-dir                   cov 0.889  sd 0.041  P(cov<.85) 0.190  len   0.97  P(inf) 0.001 
+  random k=2                               cov 0.862  sd 0.046  P(cov<.85) 0.430  len   0.84  P(inf) 0.002 
+  shift-dir (exact)                        cov 0.922  sd 0.040  P(cov<.85) 0.050  len   0.97  P(inf) 0.069 
+  selected (n_t=100)                       cov 0.893  sd 0.027  P(cov<.85) 0.090  len   0.92  P(inf) 0.017 
+  best candidate (hindsight)               cov 0.898  sd 0.015  P(cov<.85) 0.010  len   0.96  P(inf) 0.017 
+=== E8 california, tilt=random, gamma=1.5, m=200, R=100: pool chi2=21.21  chi2_Z resid1 1.13 resid2 4.17 random2 4.38 SIR(Y)+resid 4.70 | selection counts [21, 7, 16, 26, 9, 11, 10, 0]
+  full weighting                           cov 0.932  sd 0.048  P(cov<.85) 0.030  len   0.92  P(inf) 0.134 
+  clipped M=20                             cov 0.928  sd 0.042  P(cov<.85) 0.040  len   0.97  P(inf) 0.074 
+  unweighted                               cov 0.824  sd 0.038  P(cov<.85) 0.710  len   0.77  P(inf) 0.000 
+  resid-dir k=1                            cov 0.883  sd 0.048  P(cov<.85) 0.260  len   0.95  P(inf) 0.001 
+  resid-dir k=2 (SIR)                      cov 0.877  sd 0.051  P(cov<.85) 0.270  len   0.88  P(inf) 0.009 
+  SIR(Y) k=2 + resid-dir                   cov 0.880  sd 0.055  P(cov<.85) 0.320  len   0.88  P(inf) 0.007 
+  random k=2                               cov 0.865  sd 0.057  P(cov<.85) 0.400  len   0.83  P(inf) 0.016 
+  shift-dir (exact)                        cov 0.932  sd 0.048  P(cov<.85) 0.030  len   0.92  P(inf) 0.134 
+  selected (n_t=100)                       cov 0.890  sd 0.033  P(cov<.85) 0.140  len   0.87  P(inf) 0.040 
+  best candidate (hindsight)               cov 0.899  sd 0.016  P(cov<.85) 0.010  len   0.91  P(inf) 0.041 
+=== E8 california, tilt=feature, gamma=2.0, m=500, R=100: pool chi2=15.11  chi2_Z resid1 2.24 resid2 5.67 random2 4.77 SIR(Y)+resid 11.47 | selection counts [33, 11, 9, 18, 7, 17, 5, 0]
+  full weighting                           cov 0.908  sd 0.035  P(cov<.85) 0.040  len   0.52  P(inf) 0.092 
+  clipped M=20                             cov 0.910  sd 0.026  P(cov<.85) 0.020  len   0.55  P(inf) 0.000 
+  unweighted                               cov 0.959  sd 0.010  P(cov<.85) 0.000  len   0.75  P(inf) 0.000 
+  resid-dir k=1                            cov 0.922  sd 0.020  P(cov<.85) 0.000  len   0.59  P(inf) 0.000 
+  resid-dir k=2 (SIR)                      cov 0.921  sd 0.028  P(cov<.85) 0.020  len   0.58  P(inf) 0.001 
+  SIR(Y) k=2 + resid-dir                   cov 0.899  sd 0.030  P(cov<.85) 0.070  len   0.52  P(inf) 0.017 
+  random k=2                               cov 0.951  sd 0.023  P(cov<.85) 0.000  len   0.71  P(inf) 0.002 
+  shift-dir (exact)                        cov 0.908  sd 0.035  P(cov<.85) 0.040  len   0.52  P(inf) 0.092 
+  selected (n_t=100)                       cov 0.915  sd 0.024  P(cov<.85) 0.010  len   0.55  P(inf) 0.044 
+  best candidate (hindsight)               cov 0.905  sd 0.011  P(cov<.85) 0.000  len   0.53  P(inf) 0.020 
+=== E8 california, tilt=random, gamma=2.0, m=500, R=100: pool chi2=263.76  chi2_Z resid1 8.14 resid2 34.37 random2 33.96 SIR(Y)+resid 36.47 | selection counts [20, 23, 1, 21, 15, 11, 9, 0]
+  full weighting                           cov 0.937  sd 0.053  P(cov<.85) 0.050  len   1.19  P(inf) 0.285 
+  clipped M=20                             cov 0.889  sd 0.072  P(cov<.85) 0.240  len   1.21  P(inf) 0.000 
+  unweighted                               cov 0.759  sd 0.076  P(cov<.85) 0.960  len   0.75  P(inf) 0.000 
+  resid-dir k=1                            cov 0.855  sd 0.078  P(cov<.85) 0.450  len   0.99  P(inf) 0.008 
+  resid-dir k=2 (SIR)                      cov 0.854  sd 0.079  P(cov<.85) 0.410  len   0.97  P(inf) 0.015 
+  SIR(Y) k=2 + resid-dir                   cov 0.872  sd 0.072  P(cov<.85) 0.300  len   1.08  P(inf) 0.011 
+  random k=2                               cov 0.833  sd 0.099  P(cov<.85) 0.480  len   0.89  P(inf) 0.024 
+  shift-dir (exact)                        cov 0.937  sd 0.053  P(cov<.85) 0.050  len   1.19  P(inf) 0.285 
+  selected (n_t=100)                       cov 0.896  sd 0.031  P(cov<.85) 0.070  len   1.08  P(inf) 0.056 
+  best candidate (hindsight)               cov 0.896  sd 0.022  P(cov<.85) 0.030  len   1.09  P(inf) 0.052 

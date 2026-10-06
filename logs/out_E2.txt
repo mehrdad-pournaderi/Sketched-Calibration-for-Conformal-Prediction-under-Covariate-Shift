@@ -1,0 +1,13 @@
+=== E2: estimated weights via logistic regression on unlabeled covariates (n_u=2000 each), heteroscedastic model, R=200
+ mu=1.5: chi2_X=8.5
+  exact weighted (known w)           cov 0.913  sd 0.042  P(cov<.85) 0.075  len   3.72  P(inf) 0.027 
+  full-d estimated w                 cov 0.912  sd 0.043  P(cov<.85) 0.085  len   3.72  P(inf) 0.029  exact 1/2E|wbar-w| = 0.1024 (sd 0.0123)
+  sketched k=1 known w_Z             cov 0.903  sd 0.032  P(cov<.85) 0.060  len   3.75  P(inf) 0.000 
+  sketched k=1 estimated w_Z         cov 0.902  sd 0.032  P(cov<.85) 0.065  len   3.77  P(inf) 0.001  exact 1/2E|wbar-w| = 0.0117 (sd 0.0089)
+  sketched k=8 estimated w_Z         cov 0.906  sd 0.034  P(cov<.85) 0.070  len   3.78  P(inf) 0.002  exact 1/2E|wbar-w| = 0.0402 (sd 0.0109)
+ mu=2.5: chi2_X=517.0
+  exact weighted (known w)           cov 0.938  sd 0.051  P(cov<.85) 0.055  len   4.74  P(inf) 0.377 
+  full-d estimated w                 cov 0.934  sd 0.051  P(cov<.85) 0.085  len   4.66  P(inf) 0.374  exact 1/2E|wbar-w| = 0.1494 (sd 0.0201)
+  sketched k=1 known w_Z             cov 0.920  sd 0.044  P(cov<.85) 0.060  len   4.52  P(inf) 0.079 
+  sketched k=1 estimated w_Z         cov 0.920  sd 0.044  P(cov<.85) 0.055  len   4.54  P(inf) 0.079  exact 1/2E|wbar-w| = 0.0167 (sd 0.0126)
+  sketched k=8 estimated w_Z         cov 0.924  sd 0.056  P(cov<.85) 0.065  len   4.56  P(inf) 0.126  exact 1/2E|wbar-w| = 0.0516 (sd 0.0141)

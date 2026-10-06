@@ -1,0 +1,30 @@
+mu=0.5 exact weighted           cov 0.902 sd 0.017 len 2.82 Pinf 0.000
+mu=0.5 clipped M=20             cov 0.902 sd 0.017 len 2.82 Pinf 0.000
+mu=0.5 sketched k=1 weighted    cov 0.902 sd 0.016 len 2.83 Pinf 0.000
+mu=0.5 sketched k=8 weighted    cov 0.902 sd 0.017 len 2.83 Pinf 0.000
+mu=0.5 full-d unweighted        cov 0.859 sd 0.015 len 2.39 Pinf 0.000
+mu=1.0 exact weighted           cov 0.905 sd 0.027 len 3.28 Pinf 0.000
+mu=1.0 clipped M=20             cov 0.904 sd 0.026 len 3.28 Pinf 0.000
+mu=1.0 sketched k=1 weighted    cov 0.903 sd 0.022 len 3.31 Pinf 0.000
+mu=1.0 sketched k=8 weighted    cov 0.903 sd 0.024 len 3.29 Pinf 0.000
+mu=1.0 full-d unweighted        cov 0.810 sd 0.017 len 2.39 Pinf 0.000
+mu=1.5 exact weighted           cov 0.912 sd 0.040 len 3.66 Pinf 0.027
+mu=1.5 clipped M=20             cov 0.902 sd 0.036 len 3.65 Pinf 0.000
+mu=1.5 sketched k=1 weighted    cov 0.906 sd 0.030 len 3.76 Pinf 0.000
+mu=1.5 sketched k=8 weighted    cov 0.906 sd 0.034 len 3.75 Pinf 0.002
+mu=1.5 full-d unweighted        cov 0.755 sd 0.019 len 2.39 Pinf 0.000
+mu=2.0 exact weighted           cov 0.923 sd 0.049 len 3.94 Pinf 0.161
+mu=2.0 clipped M=20             cov 0.896 sd 0.048 len 4.04 Pinf 0.000
+mu=2.0 sketched k=1 weighted    cov 0.914 sd 0.042 len 4.24 Pinf 0.015
+mu=2.0 sketched k=8 weighted    cov 0.916 sd 0.046 len 4.19 Pinf 0.031
+mu=2.0 full-d unweighted        cov 0.697 sd 0.020 len 2.39 Pinf 0.000
+mu=2.5 exact weighted           cov 0.931 sd 0.067 len 4.56 Pinf 0.378
+mu=2.5 clipped M=20             cov 0.892 sd 0.057 len 5.03 Pinf 0.000
+mu=2.5 sketched k=1 weighted    cov 0.923 sd 0.049 len 4.64 Pinf 0.080
+mu=2.5 sketched k=8 weighted    cov 0.927 sd 0.051 len 4.59 Pinf 0.128
+mu=2.5 full-d unweighted        cov 0.641 sd 0.021 len 2.39 Pinf 0.000
+mu=3.0 exact weighted           cov 0.943 sd 0.075 len inf Pinf 0.599
+mu=3.0 clipped M=20             cov 0.915 sd 0.061 len 6.32 Pinf 0.141
+mu=3.0 sketched k=1 weighted    cov 0.934 sd 0.052 len 5.06 Pinf 0.203
+mu=3.0 sketched k=8 weighted    cov 0.938 sd 0.052 len 4.98 Pinf 0.283
+mu=3.0 full-d unweighted        cov 0.587 sd 0.022 len 2.39 Pinf 0.000
